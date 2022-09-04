@@ -5,7 +5,6 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Welcome from "./components/Welcome";
 
 function App() {
   return (
@@ -14,9 +13,8 @@ function App() {
         <div className="font-mono bg-red-50 min-h-screen p-6">
           <Navbar />
           <Routes>
-            <Route path="/about" element={<About />} />
+            <Route path="/" element={<About />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="*" element={<Welcome />} />
           </Routes>
           <Footer />
         </div>

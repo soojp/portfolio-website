@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "https://soojp.github.io/portfolio-website",
+  "homepage": "https://soojp.github.io/portfolio-website/",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",

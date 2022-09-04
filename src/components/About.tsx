@@ -1,6 +1,6 @@
 import React from "react";
 
-const Home = () => {
+const About = () => {
   return (
     <main className="p-6">
       {/* page title */}
@@ -69,4 +69,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default About;
