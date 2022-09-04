@@ -35,8 +35,8 @@ const Home = () => {
 
           <p className="bg-white p-3 border border-black">
             What makes me different from most developers is that I come from a
-            non-traditional background; I have a bachelors in Biology and worked
-            as a clinical laboratory assistant before joining a coding bootcamp.
+            non-traditional background; I have a Bachelors in Biology and worked
+            as a Clinical Laboratory Assistant before joining a coding bootcamp.
             You can see my publication as third author in{" "}
             <span className="italic">Current Biology</span>{" "}
             <span>
