@@ -13,10 +13,8 @@ function App() {
         <div className="font-mono bg-red-50 min-h-screen p-6">
           <Navbar />
           <Routes>
-            <Route path="/*">
-              <Route index element={<Home />} />
-              <Route path="projects" element={<Projects />} />
-            </Route>
+            <Route default path="/portfolio-website" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
           </Routes>
           <Footer />
         </div>
