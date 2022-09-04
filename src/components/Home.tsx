@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="p-6">
+    <main className="p-6">
       {/* page title */}
       <h1 className="text-xl text-center text-fuchsia-800 mb-4">About Me</h1>
       {/* body */}
@@ -65,7 +65,7 @@ const Home = () => {
           </p>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

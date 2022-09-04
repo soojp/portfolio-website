@@ -3,7 +3,7 @@ import Card from "./Card";
 
 const Projects = () => {
   return (
-    <div className="p-6">
+    <main className="p-6">
       <h1 className="text-xl text-center text-fuchsia-800">My Projects</h1>
       <div className="grid grid-cols-1 justify-items-center md:grid-cols-2">
         <Card
@@ -43,7 +43,7 @@ const Projects = () => {
           ]}
         />
       </div>
-    </div>
+    </main>
   );
 };
 

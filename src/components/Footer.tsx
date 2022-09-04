@@ -7,7 +7,7 @@ library.add(fab, faGithub);
 
 const Footer = () => {
   return (
-    <div className="fixed bottom-0 left-0 bg-red-300 min-w-full p-1 flex justify-center items-center">
+    <footer className="fixed bottom-0 left-0 bg-red-300 min-w-full p-1 flex justify-center items-center">
       <div className="mr-5">
         <p>
           Click on the LinkedIn and GitHub logos to checkout my profiles on the
@@ -22,7 +22,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={["fab", "github"]} size="2x" />
         </a>
       </div>
-    </div>
+    </footer>
   );
 };
 
