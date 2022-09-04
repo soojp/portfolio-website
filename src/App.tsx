@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Welcome from "./components/Welcome";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <Routes>
             <Route path="/about" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="*" element={<Navigate to="/about" replace />} />
+            <Route path="*" element={<Welcome />} />
           </Routes>
           <Footer />
         </div>
